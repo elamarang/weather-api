@@ -49,7 +49,7 @@ export default function SearchBar() {
              onChange={(e)=>setInput(e.target.value)}
             onKeyPress={(e)=>handleEnter(e)}></input>
             <button 
-            className='w-30 f4 grow link white ph3 pv2 dib bg-light-green'
+            className='w-30 f4 grow link white ph3 pv2 dib bg-green'
             id='search-btn'
             onClick={()=>CitySet()}>Search</button>
         </div>
